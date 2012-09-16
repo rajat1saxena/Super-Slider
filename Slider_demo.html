@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<link href="./css/slider_style.css" rel="stylesheet">
+	<!-- HTML5 shim, for IE6-8 support of HTML elements -->
+        <!--[if lt IE 9]>
+            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+	<script src="./js/super_slider.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('div#container').super_slider();
+		});
+	</script>
+</head>
+<body>
+	<div id="container">
+		<div id="slider">
+			<p id="1"><a href="www.facebook.com"><img src="http://farm9.staticflickr.com/8433/7513530840_364932eaf9.jpg" /></a></p>
+			<p id="2"><img src="http://farm9.staticflickr.com/8149/7513511304_1f2225a326.jpg" /></p>
+			<p id="3"><img src="http://farm9.staticflickr.com/8020/7513697264_dd2404f46d.jpg" /></p>
+			<p id="4"><a href="https://www.facebook.com"><img src="http://farm9.staticflickr.com/8423/7516182618_8316ceb8b1.jpg" /></a></p>
+			<p id="5"><img src="http://farm8.staticflickr.com/7257/7516176128_a14a860d3e.jpg" /></p>
+		</div>
+		<div class="arrows">
+			<a href="#" id="left" class="arrow"><</a>
+		</div>
+		<div class="arrows">
+			<a href="#" id="right" class="arrow">></a>
+		</div>
+		<div id="links">
+			<a href="#" class="link colored" id="1"></a>
+			<a href="#" class="link" id="2"></a>
+			<a href="#" class="link" id="3"></a>
+			<a href="#" class="link" id="4"></a>
+			<a href="#" class="link" id="5"></a>	
+		</div>
+	</div>
+</body>
+</html>
