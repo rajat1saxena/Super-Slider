@@ -55,6 +55,12 @@
 		top: 90px;
 		box-shadow: 0px 1px 3px black;
 		text-indent: -9999px;
+                
+                /**
+		* Outline fix for firefox
+		* removes the dotted line which appears around the anchor tag when it is in focus
+		*/
+		outline: 0;
 	}
 	div.arrows a[id="left"]{
 		left: 5px;
